@@ -1,0 +1,27 @@
+{
+  "name": "israel-companies",
+  "version": "1.0.0",
+  "description": "Look up Israeli companies in the Registrar of Companies (רשם החברות) on data.gov.il by number (ח.פ.) or name, with checksum validation and Hebrew explanations of every company status",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": ["index.js", "index.d.ts"],
+  "sideEffects": false,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test.js",
+    "test:live": "LIVE=1 node --test test.js"
+  },
+  "keywords": ["israel", "companies", "registrar", "רשם החברות", "ח.פ", "חפ", "data.gov.il", "company-number", "hebrew", "kyc"],
+  "author": "Aiterra <info@aiterra.co.il> (https://www.aiterra.co.il)",
+  "license": "MIT",
+  "homepage": "https://www.aiterra.co.il/tools/company-lookup",
+  "repository": { "type": "git", "url": "git+https://github.com/aiterra-il/israel-companies.git" },
+  "bugs": { "url": "https://github.com/aiterra-il/israel-companies/issues" }
+}
