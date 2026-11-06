@@ -3,6 +3,7 @@
 # israel-companies · חיפוש חברות ברשם החברות
 
 [![npm](https://img.shields.io/npm/v/israel-companies?color=2447D6)](https://www.npmjs.com/package/israel-companies)
+[![tests](https://github.com/aiterra-il/israel-companies/actions/workflows/tests.yml/badge.svg)](https://github.com/aiterra-il/israel-companies/actions/workflows/tests.yml)
 [![license](https://img.shields.io/badge/license-MIT-3E96F9)](LICENSE)
 ![dependencies](https://img.shields.io/badge/dependencies-0-060B22)
 
